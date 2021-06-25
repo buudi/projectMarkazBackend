@@ -32,6 +32,9 @@ app.use(function (req, res, next) {
     next();
 });
 
+const mountRoutes = require("./routes/index");
+mountRoutes(app)
+
 app.get("/", (req, res) => {
     res.send("Welcome to Markaz Alhuda API");
 });
