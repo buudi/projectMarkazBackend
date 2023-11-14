@@ -4,5 +4,5 @@ const router = new Router();
 module.exports = router;
 
 router.get('/', async (req, res) => {
-    res.send("HI nigga");
+    res.send("HI bro");
 });
